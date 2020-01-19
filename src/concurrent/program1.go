@@ -30,7 +30,7 @@ Go concurrency model is
 
 /* 
 	--> goroutines are virtual thread
-	--> 
+	--> goroutines are scalable, schedule easily & very light weight
  */
 func main()  {
 	names := []string{"Ritesh", "Akanksha", "Ashish"}

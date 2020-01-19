@@ -19,6 +19,7 @@ func main() {
 		fmt.Println("Hello, I am running after 5 sec")
 	}()
 
+	// defer call when the function exit
 	go func() {
 		defer wg.Done()
 		fmt.Println("I run immeditely")
