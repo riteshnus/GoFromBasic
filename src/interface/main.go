@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"hello/model"
+	"interface/model"
 )
 
 func main() {
